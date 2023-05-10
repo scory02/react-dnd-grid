@@ -1,0 +1,22 @@
+.droppable {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.over {
+  background-color: #ebffd4;
+}
+
+.can {
+  background-color: #f7ffee;
+}
+
+.big {
+  height: 70%;
+}
+.text {
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}

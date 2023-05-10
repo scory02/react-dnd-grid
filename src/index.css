@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.App,._content_1kuc1_1{
+  height:100vh;
+  display: flex;
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+}
+.flex-row{
+  display:flex;
+  flex:1;
+}
+.left{
+  width: 20%;
+  border: dotted #6484a1 4px;
+}
+.right{
+  width: 80%;
+  border: dotted #6484a1 4px;
+}
+.big-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.5em;
+}
+.draggable {
+  border: 2px solid skyblue;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: grab;
+  margin: 5px;
+}
+#rightFull{
+  background-color: #fff;
+}
+.fullButton{
+  position: absolute;
+  left: 18%;
+  top: 3px;
+  cursor: pointer;
+  background: #f1f7fd;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  float: right;
+}
+.dragging {
+  background-color: #f3fafd;
+  cursor: grabbing;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 350px;
+  border: orange dashed 1px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 400;
+}
+.remove{
+  position: absolute;
+  right: 7px;
+  top: 1px;
+  cursor: pointer;
+  z-index: 999;
+  display:none;
+}
+.react-grid-item{
+  border: 1px solid #ececec;
+}
+
+.react-grid-item:hover .remove{
+  display:inline-block;
+}
+
+.react-resizable-handle{
+  visibility: hidden;
+}
+
+.react-grid-item:hover .react-resizable-handle{
+  visibility: visible;
+}
+.reactEcharts:hover{
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
